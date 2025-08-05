@@ -46,7 +46,7 @@ cmd({
 
     const caption = `
     
-╭──┥❍ *𝙳𝙰𝚁𝙺-𝙺𝙽𝙸𝙶𝙷𝚃-𝚇𝙼𝙳* ❍├─ 
+╭──┥❍ *𝙺𝙰𝚅𝙸𝙳𝚄-𝙼𝙳* ❍├─ 
 ┊
 ┊▸ *ᴛɪᴛʟᴇ:* ${title}
 ┊▸ *ᴅᴜʀᴀᴛɪᴏɴ:* _${Math.floor(duration / 60)} min ${duration % 60} sec_
@@ -59,7 +59,7 @@ cmd({
 
 📌 *Reply with the number to download your choice.*
 
-> ᴘᴏᴡᴇʀᴇᴅ ʙʏ 𝙳𝙰𝚁𝙺-𝙺𝙽𝙸𝙶𝙷𝚃-𝚇𝙼𝙳
+> ᴘᴏᴡᴇʀᴇᴅ ʙʏ 𝙺𝙰𝚅𝙸𝙳𝚄-𝙼𝙳
 
 `;
 

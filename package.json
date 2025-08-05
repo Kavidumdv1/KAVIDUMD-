@@ -1,13 +1,13 @@
 
 {
-  "name": "DARK-KNIGHT-XMD",
+  "name": "KAVIDU-MD",
   "version": "2.0.0",
-  "description": "A WhatsApp Bot Created By DARK-KNIGHT",
+  "description": "A WhatsApp Bot Created By KAVIDU INDUWARA",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name DARK-KNIGHT-XMD",
-    "stop": "pm2 stop DARK-KNIGHT-XMD",
-    "restart": "pm2 restart DARK-KNIGHT-XMD"
+    "start": "pm2 start index.js --deep-monitoring --attach --name KAVIDU-MD",
+    "stop": "pm2 stop KAVIDU-MD",
+    "restart": "pm2 restart KAVIDU-MD"
   },
   "dependencies": {
     "@whiskeysockets/baileys": "git+https://gitlab.com/amilaKumara/baileys-pmd.git",

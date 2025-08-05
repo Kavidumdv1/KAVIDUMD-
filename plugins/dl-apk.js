@@ -3,7 +3,7 @@ const { cmd } = require("../command");
 
 cmd({
   pattern: "apk",
-  react: '📦',
+  react: '📥',
   desc: "Download APK files using NexOracle API.",
   category: "download",
   use: ".apk <app name>",
@@ -46,8 +46,8 @@ cmd({
         forwardingScore: 999,
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
-          newsletterJid: '120363400240662312@newsletter',
-          newsletterName: '『『 𝙳𝙰𝚁𝙺-𝙺𝙽𝙸𝙶𝙷𝚃-𝚇𝙼𝙳 』』',
+          newsletterJid: '120363422383085384@newsletter',
+          newsletterName: '𝙺𝙰𝚅𝙸𝙳𝚄-𝙼𝙳',
           serverMessageId: 143
         }
       }
@@ -68,7 +68,7 @@ cmd({
       `📅 *Lᴀsᴛ ᴜᴘᴅᴀᴛᴇ*: ${lastup}\n` +
       `📦 *Pᴀᴄᴋᴀɢᴇ*: ${package}\n` +
       `📏 *Sɪᴢᴇ*: ${size}\n\n` +
-      `> © ᴘᴏᴡᴇʀᴇᴅ ʙʏ 𝙳𝙰𝚁𝙺-𝙺𝙽𝙸𝙶𝙷𝚃-𝚇𝙼𝙳 `;
+      `> © ᴘᴏᴡᴇʀᴇᴅ ʙʏ 𝙺𝙰𝚅𝙸𝙳𝚄-𝙼𝙳 `;
 
     // Send the APK file as a document
     await conn.sendMessage(from, {
@@ -81,8 +81,8 @@ cmd({
         forwardingScore: 999,
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
-          newsletterJid: '120363400240662312@newsletter',
-          newsletterName: '『 𝙳𝙰𝚁𝙺-𝙺𝙽𝙸𝙶𝙷𝚃-𝚇𝙼𝙳 』 ',
+          newsletterJid: '120363422383085384@newsletter',
+          newsletterName: '𝙺𝙰𝚅𝙸𝙳𝚄-𝙼𝙳',
           serverMessageId: 143
         }
       }
@@ -129,14 +129,14 @@ cmd({
     const app = data.datalist.list[0];
     const appSize = (app.size / 1048576).toFixed(2); // Convert bytes to MB
 
-    const caption = `╭━━━〔 *APK Downloader* 〕━━━┈⊷
+    const caption = `╭━━━〔 *KAVIDU-MD APK Downloader* 〕━━━┈⊷
 ┃ 📦 *Name:* ${app.name}
 ┃ 🏋 *Size:* ${appSize} MB
 ┃ 📦 *Package:* ${app.package}
 ┃ 📅 *Updated On:* ${app.updated}
 ┃ 👨‍💻 *Developer:* ${app.developer.name}
 ╰━━━━━━━━━━━━━━━┈⊷
-🔗 *Powered By 𝙳𝙰𝚁𝙺-𝙺𝙽𝙸𝙶𝙷𝚃-𝚇𝙼𝙳*`;
+🔗 *Powered By 𝙺𝙰𝚅𝙸𝙳𝚄-𝙼𝙳*`;
 
     await conn.sendMessage(from, { react: { text: "⬆️", key: m.key } });
 

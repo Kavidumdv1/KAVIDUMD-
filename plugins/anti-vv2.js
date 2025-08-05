@@ -2,7 +2,7 @@ const { cmd } = require("../command");
 
 cmd({
   pattern: "vv3",
-  react: '🪀',
+  react: '📍',
   desc: "Forwards quoted message to your DM",
   category: "utility",
   filename: __filename
@@ -18,7 +18,7 @@ cmd({
 
     if (!match.quoted) {
       return await client.sendMessage(from, {
-        text: "*🍁 Please reply to a message!*"
+        text: "*🎯 Please reply to a message!*"
       }, { quoted: message });
     }
 

@@ -40,8 +40,8 @@ async (conn, mek, m, { from, sender, reply, isGroup }) => {
       },
       message: {
         contactMessage: {
-          displayName: "𝙳𝙰𝚁𝙺-𝙺𝙽𝙸𝙶𝙷𝚃-𝚇𝙼𝙳",
-          vcard: "BEGIN:VCARD\nVERSION:3.0\nFN:𝙳𝙰𝚁𝙺-𝙺𝙽𝙸𝙶𝙷𝚃-𝚇𝙼𝙳\nORG:PK-XMD;\nTEL;type=CELL;type=VOICE;waid=254700000000:+254 700 000000\nEND:VCARD",
+          displayName: "𝙺𝙰𝚅𝙸𝙳𝚄-𝙼𝙳",
+          vcard: "BEGIN:VCARD\nVERSION:3.0\nFN:𝙺𝙰𝚅𝙸𝙳𝚄-𝙼𝙳\nORG:PK-MD;\nTEL;type=CELL;type=VOICE;waid=254700000000:+254 700 000000\nEND:VCARD",
           jpegThumbnail: Buffer.from([])
         }
       }
@@ -55,8 +55,8 @@ async (conn, mek, m, { from, sender, reply, isGroup }) => {
         forwardingScore: 5,
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
-          newsletterName: "𝙳𝙰𝚁𝙺-𝙺𝙽𝙸𝙶𝙷𝚃-𝚇𝙼𝙳",
-          newsletterJid: "120363400240662312@newsletter"
+          newsletterName: "𝙺𝙰𝚅𝙸𝙳𝚄-𝙼𝙳",
+          newsletterJid: "120363422383085384@newsletter"
         }
       }
     }, { quoted: fakeVCard });

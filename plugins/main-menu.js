@@ -8,7 +8,7 @@ cmd({
     pattern: "menu",
     desc: "Show interactive menu system",
     category: "menu",
-    react: "🚀",
+    react: "📂",
     filename: __filename
 }, async (conn, mek, m, { from, reply }) => {
     try {
@@ -17,28 +17,28 @@ cmd({
         
         const menuCaption = `╭━━━〔 *${config.BOT_NAME}* 〕━━━┈⊷
 ┃★╭──────────────
-┃★│ 👑 Owner : *${config.OWNER_NAME}*
-┃★│ 🤖 Baileys : *Multi Device*
-┃★│ 💻 Type : *NodeJs*
+┃★│ 👾 Owner : *${config.OWNER_NAME}*
+┃★│ 🛸 Baileys : *Multi Device*
+┃★│ 🎭 Type : *NodeJs*
 ┃★│ 🚀 Platform : *Heroku*
 ┃★│ ⚙️ Mode : *[${config.MODE}]*
 ┃★│ 🔣 Prefix : *[${config.PREFIX}]*
-┃★│ 🏷️ Version : *2.0.0 Bᴇᴛᴀ*
-┃★│ 📚 Commands : *${totalCommands}*
+┃★│ 🧬 Version : *2.0.0 Bᴇᴛᴀ*
+┃★│ 🎯 Commands : *${totalCommands}*
 ┃★╰──────────────
 ╰━━━━━━━━━━━━━━┈⊷
 ╭━━〔 *Menu List* 〕━━┈⊷
 ┃◈╭─────────────·๏
-┃◈│ ➊ 🤖 *Ai Menu*
-┃◈│ ➋ 🔄 *Convert Menu*
-┃◈│ ➌ 📥 *Download Menu*
-┃◈│ ➍ 😄 *Fun Menu*
+┃◈│ ➊ 🎭 *Ai Menu*
+┃◈│ ➋ 🧬 *Convert Menu*
+┃◈│ ➌ 🎯 *Download Menu*
+┃◈│ ➍ 😂 *Fun Menu*
 ┃◈│ ➎ 👥 *Group Menu*
-┃◈│ ➏ 🖼️ *Imagine Menu*
-┃◈│ ➐ 🎨 *Logo Menu*
-┃◈│ ➑ 🏠 *Main Menu*
-┃◈│ ➒ 📌 *Other Menu*
-┃◈│ ➓ 👑 *Owner Menu*
+┃◈│ ➏ 👀 *Imagine Menu*
+┃◈│ ➐ 🖼️ *Logo Menu*
+┃◈│ ➑ 💫 *Main Menu*
+┃◈│ ➒ 📍 *Other Menu*
+┃◈│ ➓ 👾 *Owner Menu*
 ┃◈│ ⓫ 🔍 *Search Menu*
 ┃◈│ ⓬ ⚙️ *Setting Menu*
 ┃◈╰───────────┈⊷
@@ -50,7 +50,7 @@ cmd({
             forwardingScore: 999,
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
-                newsletterJid: '120363400240662312@newsletter',
+                newsletterJid: '120363422383085384@newsletter',
                 newsletterName: config.OWNER_NAME,
                 serverMessageId: 143
             }
@@ -567,7 +567,7 @@ cmd({
                                 await conn.sendMessage(
                                     senderID,
                                     {
-                                        image: { url: config.MENU_IMAGE_URL || 'https://files.catbox.moe/brlkte.jpg' },
+                                        image: { url: config.MENU_IMAGE_URL || 'https://i.ibb.co/Z12ByPbd/9307.jpg' },
                                         caption: selectedMenu.content,
                                         contextInfo: contextInfo
                                     },

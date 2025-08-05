@@ -3,7 +3,7 @@ const axios = require("axios");
 
 cmd({
     pattern: "image",
-    react: "🦋",
+    react: "🎭",
     desc: "Search and download Google images",
     category: "download",
     use: ".img2 <keywords>",
@@ -37,7 +37,7 @@ cmd({
                     from,
                     {
                         image: { url: imageUrl },
-                        caption: `📷 Result for: *${query}*\n\nRequested by: @${m.sender.split('@')[0]}\n> © Powered by 𝙳𝙰𝚁𝙺-𝙺𝙽𝙸𝙶𝙷𝚃-𝚇𝙼𝙳`,
+                        caption: `📷 Result for: *${query}*\n\nRequested by: @${m.sender.split('@')[0]}\n> © Powered by 𝙺𝙰𝚅𝙸𝙳𝚄-𝙼𝙳`,
                         contextInfo: { mentionedJid: [m.sender] }
                     },
                     { quoted: mek }

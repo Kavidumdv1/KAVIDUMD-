@@ -3,7 +3,7 @@ const config = require('../config');
 
 cmd({
     pattern: "owner",
-    react: "✅", 
+    react: "🎯", 
     desc: "Get owner number",
     category: "main",
     filename: __filename
@@ -29,8 +29,8 @@ async (conn, mek, m, { from }) => {
 
         // Send the owner contact message with image and audio
         await conn.sendMessage(from, {
-            image: { url: 'https://files.catbox.moe/brlkte.jpg' }, // Image URL from your request
-            caption: `╭━━〔 *𝙳𝙰𝚁𝙺-𝙺𝙽𝙸𝙶𝙷𝚃-𝚇𝙼𝙳* 〕━━┈⊷
+            image: { url: 'https://i.ibb.co/Z12ByPbd/9307.jpg' }, // Image URL from your request
+            caption: `╭━━〔 *𝙺𝙰𝚅𝙸𝙳𝚄-𝙼𝙳* 〕━━┈⊷
 ┃◈╭─────────────·๏
 ┃◈┃• *Here is the owner details*
 ┃◈┃• *Name* - ${ownerName}
@@ -38,14 +38,14 @@ async (conn, mek, m, { from }) => {
 ┃◈┃• *Version*: 2.0.0 Beta
 ┃◈└───────────┈⊷
 ╰──────────────┈⊷
-> © ᴘᴏᴡᴇʀᴇᴅ ʙʏ 𝙳𝙰𝚁𝙺-𝙺𝙽𝙸𝙶𝙷𝚃-𝚇𝙼𝙳`, // Display the owner's details
+> © ᴘᴏᴡᴇʀᴇᴅ ʙʏ 𝙺𝙰𝚅𝙸𝙳𝚄-𝙼𝙳`, // Display the owner's details
             contextInfo: {
                 mentionedJid: [`${ownerNumber.replace('+', '')}@s.whatsapp.net`], 
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363400240662312@newsletter',
-                    newsletterName: '𝙳𝙰𝚁𝙺-𝙺𝙽𝙸𝙶𝙷𝚃-𝚇𝙼𝙳',
+                    newsletterJid: '120363422383085384@newsletter',
+                    newsletterName: '𝙺𝙰𝚅𝙸𝙳𝚄-𝙼𝙳',
                     serverMessageId: 143
                 }            
             }

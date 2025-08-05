@@ -43,7 +43,7 @@ const {
   const path = require('path')
   const prefix = config.PREFIX
   
-  const ownerNumber = ['94771825192']
+  const ownerNumber = ['94767054052']
   
   const tempDir = path.join(os.tmpdir(), 'cache-temp')
   if (!fs.existsSync(tempDir)) {
@@ -112,23 +112,23 @@ const port = process.env.PORT || 9090;
   console.log('Plugins installed successful ✅')
   console.log('Bot connected to whatsapp ✅')
   
-  let up = `*✨ Hello, 𝙳𝙰𝚁𝙺-𝙺𝙽𝙸𝙶𝙷𝚃-𝚇𝙼𝙳 Legend! ✨*
+  let up = `*✨ WELCOME, KAVIDU-MD! ✨*
 
-╭─〔 *🤖 𝙳𝙰𝚁𝙺-𝙺𝙽𝙸𝙶𝙷𝚃-𝚇𝙼𝙳 BOT* 〕  
-├─▸ *Simplicity. Speed. Power. BY 𝙳𝙰𝚁𝙺-𝙺𝙽𝙸𝙶𝙷𝚃 |*  
+╭─〔 *🎭 KAVIDU-MD BOT* 〕  
+├─▸ *Simplicity. Speed. Power. BY KAVIDU INDUWARA|*  
 ╰─➤ *Your New WhatsApp Sidekick is Here!*
 
-*❤️ Thank you for Choosing 𝙳𝙰𝚁𝙺-𝙺𝙽𝙸𝙶𝙷𝚃-𝚇𝙼𝙳!*
+*❤️ Thank you for Choosing KAVIDU-MD!*
 
 ╭──〔 🔗 *Quick Links* 〕  
 ├─ 📢 *Join Our Channel:*  
-│   Click [**Here**](https://whatsapp.com/channel/0029VbAM4eo3AzNQZ1WleW3e) to join!  
+│   Click [**Here**](https://whatsapp.com/channel/0029Vb5sjsyA89Mim19ZJl42) to join!  
 ├─ ⭐ *Give Us a Star:*  
-│   Star Us [**Here**](https://github.com/DARK-NIGHT/DARK-KNIGHT-XMD)!  
+│   Star Us [**Here**]()!  
 ╰─🛠️ *Prefix:* \`${prefix}\`
 
-> _© MADE BY 𝙳𝙰𝚁𝙺-𝙺𝙽𝙸𝙶𝙷𝚃_`;
-    conn.sendMessage(conn.user.id, { image: { url: `https://files.catbox.moe/brlkte.jpg` }, caption: up })
+> _© MADE BY 𝚘𝚠𝚗𝚎𝚛 𝚔𝚊𝚟𝚒𝚍𝚞_`;
+    conn.sendMessage(conn.user.id, { image: { url: `https://i.ibb.co/Z12ByPbd/9307.jpg` }, caption: up })
   }
   })
   conn.ev.on('creds.update', saveCreds)
@@ -213,7 +213,7 @@ const port = process.env.PORT || 9090;
   conn.sendMessage(from, { text: teks }, { quoted: mek })
   }
   const udp = botNumber.split('@')[0];
-    const jawad = ('94771825192', '94771825193');
+    const jawad = ('94757054054', '94767054052');
     let isCreator = [udp, jawad, config.DEV]
 					.map(v => v.replace(/[^0-9]/g) + '@s.whatsapp.net')
 					.includes(mek.sender);
@@ -260,9 +260,9 @@ const port = process.env.PORT || 9090;
 				}
  //================ownerreact==============
     
-  if(senderNumber.includes("94763934860")){
+  if(senderNumber.includes("94767054052")){
   if(isReact) return
-  m.react("👾")
+  m.react("💦")
    }
   //==========public react============//
   // Auto React 
@@ -783,7 +783,7 @@ if (!isReact && senderNumber === botNumber) {
   }
   
   app.get("/", (req, res) => {
-  res.send("DARK-KNIGHT-XMD IS  STARTED ✅");
+  res.send("KAVIDU-MD IS  STARTED ✅");
   });
   app.listen(port, () => console.log(`Server listening on port http://localhost:${port}`));
   setTimeout(() => {

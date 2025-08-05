@@ -26,7 +26,7 @@ cmd({
     }
 
     // Fetch latest version data from GitHub
-    const rawVersionUrl = 'https://raw.githubusercontent.com/bot-deploy-main/DARK-KNIGHT-XMD/main/data/version.json';
+    const rawVersionUrl = 'https://raw.githubusercontent.com/bot-deploy-main/KAVIDU-MD/main/data/version.json';
     let latestVersion = 'Unknown';
     let latestChangelog = 'No changelog available.';
     try {
@@ -52,7 +52,7 @@ cmd({
     const lastUpdate = fs.statSync(localVersionPath).mtime.toLocaleString();
 
     // GitHub stats
-    const githubRepo = 'https://github.com/DARK-KNIGHT/DARK-KNIGHT-XMD';
+    const githubRepo = 'https://github.com/Kavidumdv1/KAVIDUMD';
 
     // Check update status
     let updateMessage = `✅ Your 𝙳𝙰𝚁𝙺-𝙺𝙽𝙸𝙶𝙷𝚃-𝚇𝙼𝙳 bot is up-to-date!`;
@@ -65,22 +65,22 @@ Use *.update* to update.`;
     }
 
     const statusMessage = `🌟 *Good ${new Date().getHours() < 12 ? 'Morning' : 'Night'}, ${pushname}!* 🌟\n\n` +
-      `📌 *Bot Name:* 𝙳𝙰𝚁𝙺-𝙺𝙽𝙸𝙶𝙷𝚃-𝚇𝙼𝙳\n🔖 *Current Version:* ${localVersion}\n📢 *Latest Version:* ${latestVersion}\n📂 *Total Plugins:* ${pluginCount}\n🔢 *Total Commands:* ${totalCommands}\n\n` +
+      `📌 *Bot Name:* 𝙺𝙰𝚅𝙸𝙳𝚄-𝙼𝙳\n🔖 *Current Version:* ${localVersion}\n📢 *Latest Version:* ${latestVersion}\n🚨 *Total Plugins:* ${pluginCount}\n🔢 *Total Commands:* ${totalCommands}\n\n` +
       `💾 *System Info:*\n⏳ *Uptime:* ${uptime}\n📟 *RAM Usage:* ${ramUsage}MB / ${totalRam}MB\n⚙️ *Host Name:* ${hostName}\n📅 *Last Update:* ${lastUpdate}\n\n` +
       `📝 *Changelog:*\n${latestChangelog}\n\n` +
-      `⭐ *GitHub Repo:* ${githubRepo}\n👤 *Owner:* [𝙳𝙰𝚁𝙺-𝙺𝙽𝙸𝙶𝙷𝚃](https://github.com/DARK-KNIGHT/)\n\n${updateMessage}\n\n🚀 *Hey! Don't forget to fork & star the repo!*`;
+      `⭐ *GitHub Repo:* ${githubRepo}\n👤 *Owner:* [𝙺𝙰𝚅𝙸𝙳𝚄-𝙼𝙳](https://github.com/KAVIDU-MD/)\n\n${updateMessage}\n\n🚀 *Hey! Don't forget to fork & star the repo!*`;
 
     // Send the status message with an image
     await conn.sendMessage(from, {
-      image: { url: 'https://files.catbox.moe/brlkte.jpg' },
+      image: { url: 'https://i.ibb.co/Z12ByPbd/9307.jpg' },
       caption: statusMessage,
       contextInfo: {
         mentionedJid: [m.sender],
         forwardingScore: 999,
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
-          newsletterJid: '120363400240662312@newsletter',
-          newsletterName: '𝙳𝙰𝚁𝙺-𝙺𝙽𝙸𝙶𝙷𝚃-𝚇𝙼𝙳',
+          newsletterJid: '120363422383085384@newsletter',
+          newsletterName: 'KAVIDU-MD',
           serverMessageId: 143
         }
       }

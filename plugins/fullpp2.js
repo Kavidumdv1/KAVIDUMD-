@@ -4,7 +4,7 @@ const Jimp = require("jimp");
 cmd({
   pattern: "fullpp2",
   alias: ["setpp", "setdp"],
-  react: "🖼️",
+  react: "🧬",
   desc: "Set full image as bot's profile picture",
   category: "tools",
   filename: __filename

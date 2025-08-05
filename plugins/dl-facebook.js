@@ -6,7 +6,7 @@ cmd({
     alias: ["facebook"],
     desc: "Download Facebook videos (HD only)",
     category: "downloader",
-    react: "🎞️",
+    react: "🌹",
     filename: __filename
 },
 async (conn, mek, m, { from, args, q, reply }) => {
@@ -25,7 +25,7 @@ async (conn, mek, m, { from, args, q, reply }) => {
 
         const { title, thumbnail, high } = data.data;
 
-        const caption = `🎬 *Facebook Video Downloader*\n\n📖 *Title:* ${title}\n\n🔰 *by 𝙳𝙰𝚁𝙺-𝙺𝙽𝙸𝙶𝙷𝚃-𝚇𝙼𝙳*`;
+        const caption = `🎬 *Facebook Video Downloader*\n\n📖 *Title:* ${title}\n\n🔰 *by 𝙺𝙰𝚅𝙸𝙳𝚄-𝙼𝙳*`;
 
         await conn.sendMessage(from, {
             video: { url: high },
@@ -70,7 +70,7 @@ cmd({
 
     await conn.sendMessage(from, {
       video: { url: videoData.url },
-      caption: `📥 *FB DOWNLOADER..🚀*\n\n*QUAILTY•${videoData.quality}\n\n> ꜰᴏʀᴡᴀʀᴅ ʙʏ 𝙳𝙰𝚁𝙺-𝙺𝙽𝙸𝙶𝙷𝚃-𝚇𝙼𝙳*`
+      caption: `📥 *KAVIDU-MD FB DOWNLOADER..🚀*\n\n*QUAILTY•${videoData.quality}\n\n> ꜰᴏʀᴡᴀʀᴅ ʙʏ 𝙺𝙰𝚅𝙸𝙳𝚄-𝙼𝙳*`
     }, { quoted: m });
 
   } catch (error) {

@@ -16,12 +16,12 @@ async (conn, mek, m, { from, sender, reply }) => {
 ╭───〔 *🤖 ${config.BOT_NAME} STATUS* 〕───◉
 │✨ *Bot is Active & Online!*
 │
-│🧠 *Owner:* ${config.OWNER_NAME}
-│⚡ *Version:* 2.0.0
+│👾 *Owner:* ${config.OWNER_NAME}
+│🛸 *Version:* 2.0.0
 │📝 *Prefix:* [${config.PREFIX}]
 │📳 *Mode:* [${config.MODE}]
-│💾 *RAM:* ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${(os.totalmem() / 1024 / 1024).toFixed(2)}MB
-│🖥️ *Host:* ${os.hostname()}
+│💢 *RAM:* ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${(os.totalmem() / 1024 / 1024).toFixed(2)}MB
+│⚒️ *Host:* ${os.hostname()}
 │⌛ *Uptime:* ${runtime(process.uptime())}
 ╰────────────────────◉
 > ${config.DESCRIPTION}`;
@@ -34,8 +34,8 @@ async (conn, mek, m, { from, sender, reply }) => {
                 forwardingScore: 1000,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363400240662312@newsletter',
-                    newsletterName: '𝙳𝙰𝚁𝙺-𝙺𝙽𝙸𝙶𝙷𝚃-𝚇𝙼𝙳',
+                    newsletterJid: '120363422383085384@newsletter',
+                    newsletterName: '𝙺𝙰𝚅𝙸𝙳𝚄-𝙼𝙳',
                     serverMessageId: 143
                 }
             }

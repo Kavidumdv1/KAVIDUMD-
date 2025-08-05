@@ -7,7 +7,7 @@ const { runtime } = require('../lib/functions');
 
 cmd({
   pattern: 'version',
-  react: '🚀',
+  react: '🧬',
   desc: "Check bot's version, system stats, and update info.",
   category: 'info',
   filename: __filename
